@@ -1,0 +1,582 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/body--bacckground.png);
+    background-repeat: repeat;
+}
+
+
+/*header start*/
+
+.header {
+    background-color: #ffd338;
+    font-family: 'Dosis', sans-serif;
+    position: relative;
+}
+
+.logo {}
+
+.manu1 {}
+
+.menu1 {}
+
+.menu1 ul li a {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif;
+    color: white !important;
+    font-size: 22px;
+    padding: 0 20px !important;
+}
+
+.user {
+    padding: 10px;
+    font-size: 26px;
+    color: white;
+    display: inline-block;
+    margin-top: 21px;
+}
+
+.find {
+    padding: 10px;
+    font-size: 26px;
+    color: rgb(167, 126, 126);
+    display: inline-block;
+}
+
+.menu1 ul li a:hover {
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    transition: 3s;
+}
+
+.btn_user {
+    position: absolute;
+    top: -19px;
+    left: 100px;
+    color: white;
+}
+
+.btn_search {
+    position: absolute;
+    top: -19px;
+    left: 181px;
+    color: white;
+}
+
+.btn_user:focus,
+.btn_search:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.from_user {
+    position: absolute;
+    top: 49px;
+    left: -67px !important;
+    padding: 0px;
+    margin-right: 72px
+}
+
+.from_search {
+    position: absolute;
+    left: -33px !important;
+    top: 49px;
+    padding: 10px;
+}
+
+.btn_coustom {
+    background-color: #FFCF38;
+    margin: 10px 0
+}
+
+.btn_coustom:hover {
+    background-color: tomato;
+    color: white;
+}
+
+.btn_coustom:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.from_user input:focus {
+    outline: 0;
+    border-color: none;
+    box-shadow: none;
+}
+
+.d_h:hover {
+    background-color: tomato;
+    border-radius: 5px;
+    transition: 2s;
+}
+
+.vejal {
+    position: relative;
+    width: 225px;
+}
+
+.vejal input {
+    padding-right: 35px;
+}
+
+.vejal input:focus {}
+
+.bn_coustmom2 {
+    position: absolute;
+    left: 194px;
+    color: tomato;
+}
+
+.bn_coustmom2:focus,
+.vejal input:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.bn_coustmom2:hover {
+    color: tomato;
+}
+
+
+/*banner start*/
+
+.banner {
+    background-image: url(../img/bannar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 714px;
+    position: relative;
+}
+
+.tp {
+    position: absolute;
+    left: 32%;
+    top: 42%;
+}
+
+.tp h2 {
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif;
+    color: #1ec0ff;
+}
+
+.scroll {
+    position: absolute;
+    left: 45%;
+    top: 89%;
+}
+
+.scroll p {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'DOSIS';
+    color: #bfbfbf;
+}
+
+.scroll span {
+    color: #bfbfbf;
+}
+
+
+/*banner end*/
+
+
+/*about start*/
+
+.about {
+    padding-top: 100px;
+}
+
+.education {
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.dot {
+    border: 3px dashed white;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15px;
+}
+.zeaff h3 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.zeaff hr {
+    height: 2px !important;
+    width: 25%;
+}
+
+.zeaff p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.btn_dis {
+    margin-top: 30px;
+}
+
+.btn_dis:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.school_pic {
+    margin-top: 20px;
+}
+
+
+/*about end*/
+
+
+/*about start 2*/
+
+.about_2 {
+    background-image: url(../img/Banner-2.png);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.round {}
+
+.fst_pic {
+    position: absolute;
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    left: 210px;
+    display: inline-block;
+    margin-top: 32px;
+}
+.scnd_pic {
+    position: relative;
+    margin-top: 30px;
+}
+.round p {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    line-height: 29px;
+    margin-left: 10px;
+}
+.two_pic {
+    position: absolute;
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    left: 494px;
+    display: inline-block;
+}
+
+.third_pic {
+    position: absolute;
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    left: 780px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.fourth_pic {
+    position: absolute;
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    left: 1064px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+/*about end 2*/
+
+/*FEARURED COURSES START*/
+.education h2 {
+    margin-top: 50px;
+}
+.c_rd {
+    background-color: #F2F2F0 !important;
+    border: none !important;
+}
+.cart_header {
+    position: relative;
+    background-color: #1EC0FF;
+    padding: 3px;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+    border: none;
+}
+.cart_header img {
+    position: absolute;
+    right: 6px;
+}
+.crd_bg {
+    position: relative;
+}
+.dollar {
+    position: absolute;
+    background-color: #1EC0FF;
+    color: white;
+    top: 232px;
+    right: 6px;
+    border-radius: 50%;
+    padding: 1px 10px;
+}
+.dollar:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.c_bdy {
+    background-color: rgb(71, 255, 255);
+}
+.c_bdy h5 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+    color: #ffffff;
+}
+.c_bdy p {
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+.cr_d2 {
+    background-color: #F2F2F0 !important;
+    border: none !important;
+}
+.cart_header_prt2 {
+    position: relative;
+    background-color: #56d47e;
+    padding: 3px;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+    border: none;
+}
+.cart_header_prt2 img {
+    position: absolute;
+    right: 6px;
+    position: absolute;
+}
+.crd_bg2 {
+    position: relative;
+}
+.c_bdy2 {
+    background-color: rgb(76, 221, 63);
+}
+.c_bdy2 h4 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+    color: rgb(248, 248, 248);
+}
+.c_bdy2 p {
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+.dollar_prt2 {
+    position: absolute;
+    background-color: #56d47e;
+    color: white;
+    top: 309px;
+    right: 6px;
+    border-radius: 50%;
+    padding: 1px 10px;
+}
+
+
+.dollar_prt2:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.cr_d3 {
+    background-color: #F2F2F0 !important;
+    border: none !important;
+}
+.cart_header_prt3 {
+    position: relative;
+    background-color: #f05c5c;
+    padding: 3px;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+    border: none;
+}
+.cart_header_prt3 img {
+    position: absolute;
+    right: 6px;
+    position: absolute;
+}
+.crd_bg3 {
+    position: relative;
+}
+.c_bdy3 {
+    background-color: rgb(211, 86, 86);
+}
+.c_bdy3 h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Dosis',
+    sans-serif;
+    color: rgb(255, 255, 255);
+}
+.c_bdy3 p {
+    font-weight: 300;
+    font-family: 'Lato',
+    sans-serif;
+}
+.dollar_prt3 {
+    position: absolute;
+    background-color: #f05c5c;
+    color: white;
+    top: 206px;
+    right: 6px;
+    border-radius: 50%;
+    padding: 1px 10px;
+}
+
+.dollar_prt3:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.cr_d4 {
+    background-color: #F2F2F0 !important;
+    border: none !important;
+}
+.cart_header_prt4 {
+    position: relative;
+    background-color: #ffd338;
+    padding: 3px;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+    border: none;
+}
+.cart_header_prt4 img {
+    position: absolute;
+    right: 6px;
+    position: absolute;
+}
+
+.crd_bg4 {
+    position: relative;
+}
+.c_bdy4 {
+    background-color:#ffd338;
+}
+.c_bdy4 h2 {
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Dosis',
+    sans-serif;
+    color: rgb(255, 255, 255);
+}
+.c_bdy4 p {
+    font-weight: 300;
+    font-family: 'Lato',
+    sans-serif;
+}
+.dollar_prt4 {
+    position: absolute;
+    background-color: #ffd338;
+    color: white;
+    top: 232px;
+    right: 6px;
+    border-radius: 50%;
+    padding: 1px 10px;
+}
+.dollar_prt4:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.batton {
+    margin-top: 40px;
+}
+
+/*FEARURED COURSES end*/
+
+/*Memorable Moments start*/
+.Moments {
+    background-image: url(../img/banner-3.png);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+.editt {
+    margin-top: 40px;
+}
+.pic_1 {}
+.pic_2 {}
+.pic_3 {}
+.pic_4 {}
+.editt_2 {
+    margin-top: 40px;
+}
+.pic_5 {}
+.pic_6 {}
+.pic_7 {}
+.pic_8 {}
+.btn_costm {
+    margin-left: 480px;
+    margin-top: 50px;
+}
+.btn_costm:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+/*Memorable Moments end*/
+
+/*kid start*/
+.pkhi {}
+
+.pkhi img {
+    margin-top: 22px;
+    padding-bottom: 20px;
+}
+
+.pkhi p {
+    padding-top: 12px;
+    line-height: 50px;
+    font-family: 'Lato',
+    sans-serif;
+}
+.pkhi a {
+    color: #1ec0ff;
+    font-weight: 300;
+    font-family: 'Lato',
+    sans-serif;
+}
+.footer{
+    background-color: rgb(23, 238, 238);
+    color: white;
+    margin-top: 80px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+}
+/*kid end*/
